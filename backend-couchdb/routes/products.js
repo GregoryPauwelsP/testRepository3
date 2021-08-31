@@ -6,7 +6,7 @@ const DB_URL = "http://localhost:5984/products/";
 const DB_VIEWS = "_design/views/_view/";
 
 router.get('/', (req, res) => {
-    console.log("This is a test");
+    console.log("This is a test2222");
     console.log(DB_URL+DB_VIEWS+"allProducts")
     axios.get(DB_URL+DB_VIEWS+"allProducts")
         .then(result => {
